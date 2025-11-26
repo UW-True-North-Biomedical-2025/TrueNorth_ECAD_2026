@@ -1,0 +1,27 @@
+# KiCad temporary and backup files
+*.000
+*.bak
+*.bck
+*.kicad_prl
+*.tmp
+*.swp
+*~
+
+# Auto-save files
+_autosave-*
+
+# Simulation output
+*.log
+*.raw
+
+# Gerbers, fabrication outputs (if generated)
+fabrication/
+outputs/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# IDE/project-specific
+.vscode/
+.idea/

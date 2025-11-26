@@ -6,6 +6,8 @@
 *.tmp
 *.swp
 *~
+*-backup*
+*.backup
 
 # Auto-save files
 _autosave-*
@@ -14,13 +16,33 @@ _autosave-*
 *.log
 *.raw
 
-# Gerbers, fabrication outputs (if generated)
+# KiCad footprint/symbol cache (optional, remove if needed)
+fp-info-cache
+
+# lock files
+*.lck 
+
+
+# Fabrication / output directories
 fabrication/
 outputs/
+
+# Ignore generated BOM/psition files
+*.xml
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
 
 # OS cruft
 .DS_Store
 Thumbs.db
+
+# Python/cache (if running scripts)
+__pycache__/
+*.pyc
 
 # IDE/project-specific
 .vscode/

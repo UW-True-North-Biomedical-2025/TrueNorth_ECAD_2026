@@ -871,16 +871,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 106.68) (xy 170.18 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33896085-cd63-40bf-bd37-090b7a6e668f")
-	)
-	(wire
-		(pts
 			(xy 161.29 76.2) (xy 168.91 76.2)
 		)
 		(stroke
@@ -888,16 +878,6 @@
 			(type default)
 		)
 		(uuid "49053d41-906a-4c32-8791-de284184cf81")
-	)
-	(wire
-		(pts
-			(xy 161.29 101.6) (xy 170.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d85b522-080f-44d3-b73b-1d3284032e34")
 	)
 	(wire
 		(pts
@@ -958,60 +938,6 @@
 			(type default)
 		)
 		(uuid "b9b5bb5a-c3f6-4fe5-86dd-0a179dd3726f")
-	)
-	(wire
-		(pts
-			(xy 161.29 104.14) (xy 170.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef0346b1-bc8f-45b5-8cce-b4955f94d28a")
-	)
-	(global_label "ADC3"
-		(shape input)
-		(at 170.18 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59aa2a39-4a34-4f0c-8eff-ecf55db6c301")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0033 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC1"
-		(shape input)
-		(at 170.18 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d4afb70-3df9-41ea-a31b-f2a1407ddd15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0033 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "MISO"
 		(shape input)
@@ -1097,28 +1023,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC2"
-		(shape input)
-		(at 170.18 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e137ec25-1d3c-4690-a7eb-0c81652ce19b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0033 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

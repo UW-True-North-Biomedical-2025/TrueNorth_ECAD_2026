@@ -3958,6 +3958,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f6997964-4339-41d6-918f-cc25ef4a303a")
 	)
+	(gr_text "Jax Kaz and\nMaanas were here\n:)"
+		(at 100.5 116 0)
+		(layer "F.SilkS")
+		(uuid "5f132f5b-eb86-4f6e-9dc7-f2206e48b1d5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 128 108)
 		(end 128 106.0375)

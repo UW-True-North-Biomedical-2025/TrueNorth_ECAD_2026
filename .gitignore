@@ -11,6 +11,10 @@
 
 # Auto-save files
 _autosave-*
+# KiCad auto-save files
+
+\#auto_saved_files#/
+
 
 # Simulation output
 *.log
